@@ -2,9 +2,9 @@
 #include<stdio.h>
 
 /**
- * *_strchr - locates a character in a string.
- * s: string where the char should be located
- * c: char to be located
+ * *_strchr - locates a character in a string
+ * @s: string to searcj
+ * @c: char to be located
  *
  * Return: c or NULL
  */
@@ -21,7 +21,7 @@ char *_strchr(char *s, char c)
 		}
 		if (a == 0)
 		{
-			return(NULL);
+			return (NULL);
 		}
 	}
 }
