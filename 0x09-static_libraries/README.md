@@ -1,1 +1,1 @@
-Learning how to make a static library to organize our functions
+Learning about making static libraries and dynamic libriares to store multiple functions save memory
