@@ -1,2 +1,1 @@
-using argv and argc in various ways to perform multiple tasks
-
+Making use of argc and argv in c
