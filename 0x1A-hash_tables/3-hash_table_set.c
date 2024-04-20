@@ -4,7 +4,6 @@
  * @ht: hash table you want ot add or update key to
  * @key: the key
  * @value: value associated with the key.
- * 
  * Return: On success 1, 0 otherwise
 */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
