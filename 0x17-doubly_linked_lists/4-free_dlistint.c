@@ -2,7 +2,6 @@
 /**
  * free_dlistint - frees the linked list
  * @head: pointer to linked list head
- * 
  * Return : no return
 */
 void free_dlistint(dlistint_t *head)
@@ -13,7 +12,7 @@ void free_dlistint(dlistint_t *head)
 		while (head->prev != NULL)
 			head = head->prev;
 
-	while(head != NULL)
+	while (head != NULL)
 	{
 		temp = head;
 		head = head->next;
